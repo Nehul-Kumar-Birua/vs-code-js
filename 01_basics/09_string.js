@@ -13,23 +13,24 @@ const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+console.log(gameName.charAt(2)); // t
+console.log(gameName.indexOf('t')); // 2
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+console.log(newString);  // hite
 
-const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+const anotherString = gameName.slice(-8, 8)
+console.log(anotherString);  // h-h
 
 const newStringOne = "   hitesh    "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne);  // with spaces
+console.log(newStringOne.trim()); // no spaces
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-'))  // %20 is replaces by -
 
-console.log(url.includes('sundar'))
+console.log(url.includes('hitesh')) // true
+console.log(url.includes('sundar')) // false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); //  [ 'hitesh', 'hc', 'com' ]
