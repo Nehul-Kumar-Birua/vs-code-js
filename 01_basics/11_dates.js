@@ -5,7 +5,7 @@ const max = 100
 
 console.log(Math.floor(Math.random() * (max - min + 1) + min));
 
-/*****************Dates******************/
+/************************** Dates **************************/
 
 let date = new Date()
 // console.log(date);  // 2025-02-14T19:51:38.809Z
