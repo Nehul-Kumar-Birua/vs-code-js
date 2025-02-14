@@ -27,7 +27,7 @@ console.log(booleanIsLoggedIn)
 'Hello' -> true
 */
 
-let sum = 10
+let sum = 12
 let string = String(sum)
 console.log(string)
 console.log(typeof string)
